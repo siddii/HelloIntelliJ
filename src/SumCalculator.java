@@ -4,7 +4,7 @@
 public class SumCalculator {
 
     public static void main(String[] myArgs) {
-        int sum = 1;
+        int sum = 0;
         for (int i = 0; i < myArgs.length; i++) {
             sum += Integer.parseInt(myArgs[i]);
         }
