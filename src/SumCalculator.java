@@ -7,7 +7,6 @@ public class SumCalculator {
         /* This is a default value */
         int sum = 0;
 
-        /* Here is a logic for summing */
         for (int i = 0; i < myArgs.length; i++) {
             sum += Integer.parseInt(myArgs[i]);
         }
